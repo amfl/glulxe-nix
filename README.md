@@ -7,8 +7,16 @@
 1. Install Nix
 2. Build nix expression
 
+With legacy default.nix:
+
 ```sh
 nix-build .
+```
+
+With flake.nix:
+
+```sh
+nix build '.#'
 ```
 
 ## References

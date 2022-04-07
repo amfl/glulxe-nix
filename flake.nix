@@ -13,6 +13,7 @@
         defaultPackage = packages.glulxe;
 
         packages = rec {
+          fizmo = callPackage ./fizmo.nix {};
           glkterm = callPackage ./glkterm.nix {};
           glulxe = callPackage ./glulxe.nix { glkterm = glkterm; };
         };

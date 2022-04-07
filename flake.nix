@@ -1,5 +1,5 @@
 {
-  description = "Glulxe interactive fiction client";
+  description = "A collection of interactive fiction interpreters";
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:NixOS/nixpkgs";

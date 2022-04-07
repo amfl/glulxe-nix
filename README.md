@@ -1,6 +1,7 @@
-# Glulxe for Nix
+# Interactive Fiction Interpreters, packaged with Nix
 
-<https://github.com/erkyrath/glulxe> for the Nix package manager.
+- <https://github.com/chrender/fizmo>
+- <https://github.com/erkyrath/glulxe>
 
 ## Usage
 
